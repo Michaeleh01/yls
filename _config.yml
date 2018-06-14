@@ -13,8 +13,8 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://michaelmai2000.github.io/yls
-root: /yls/
+url: http://yileishang.com/h
+root: /h/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -79,6 +79,6 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git 
-  repo: https://github.com/MichaelMai2000/MichaelMai2000.github.io/yls/.git
+  repo: https://github.com/Michaeleh01/yls.git
   branch: master
   extend_dirs: /
