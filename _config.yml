@@ -13,8 +13,8 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yileishang.com/h
-root: /h/
+url: http://yileishang.com/
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -29,8 +29,8 @@ i18n_dir: :lang
 skip_render:
 
 # Writing
-new_post_name: :title.md # File name of new posts
-default_layout: post
+new_post_name: :year-:month-:day.md # File name of new posts
+default_layout: mryt
 titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
@@ -82,3 +82,9 @@ deploy:
   repo: https://github.com/Michaeleh01/yls.git
   branch: master
   extend_dirs: /
+  
+# hexo-admin authentification
+admin:
+  username: michaelmai
+  password_hash: $2a$10$4KhzPzhYdTUQfGpzz1zEa.KUDD5PTDiwkG5hhj05s53Y0n70CJnRa
+  secret: rdfz is a magical place!
